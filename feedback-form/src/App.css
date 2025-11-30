@@ -1,0 +1,50 @@
+body{
+  background-image: url("https://t4.ftcdn.net/jpg/09/09/10/05/360_F_909100561_lYTvkuYJcSVM8avLiydlRDWRIprV6zLd.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+label,h2,h3,p{
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+}
+h2{
+  padding: 15px;
+}
+input{
+  margin: 10px;
+  border: 1px solid gray;
+  border-radius: 7px;
+  box-shadow: 5px 4px 15px rgb(0, 0, 0);
+  padding: 3px;
+  transition: 1ms; 
+  color: rgb(0, 0, 0);
+}
+input:hover{
+  transform: translateY(-3px);
+  background-color: rgb(255, 255, 255);
+}
+button{
+  background-color: rgb(255, 255, 255);
+  transition: 0.9s;
+}
+
+button:hover{
+  background-color: black;
+  color: white;
+  transform: translateY(-3px);
+  
+  
+}
+
+.feedback-animate {
+    animation: enterEffect 1.5s ease-out forwards;
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+@keyframes enterEffect {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
